@@ -39,6 +39,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
 
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath)
+        cell.textLabel?.text = japanArea[indexPath.row]
+        cell.detailTextLabel?.text = "\(indexPath.row + 1)番目の都道府県です。"
         return cell
     }
 }
