@@ -14,8 +14,8 @@
             filePath = "HIROAKIKadai10/ViewController.swift"
             startingColumnNumber = "16"
             endingColumnNumber = "16"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
